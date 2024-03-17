@@ -15,7 +15,7 @@ def main():
 
     # execute query
     c.execute("SELECT * FROM states WHERE BINARY name = '{:s}'\
-    ORDER BY states.id ASC".format(argv[4]))
+    ORDER BY id ASC".format(argv[4]))
 
     # fetch
     rows = c.fetchall()
