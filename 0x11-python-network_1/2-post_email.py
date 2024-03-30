@@ -9,7 +9,7 @@ import sys
 
 if __name__ == "__main__":
     url = sys.argv[1]
-    emaildict = {"email" : sys.argv[2]}
+    emaildict = {"email": sys.argv[2]}
     encoded = urllib.parse.urlencode(emaildict).encode("ascii")
     request = urllib.request.Request(url, encoded)
     with urllib.request.urlopen(request) as respo:
