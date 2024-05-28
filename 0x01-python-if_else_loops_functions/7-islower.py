@@ -4,3 +4,8 @@ def islower(c):
         return True
     else:
         return False
+
+
+
+print(ord("a"))
+print(ord("z"))
