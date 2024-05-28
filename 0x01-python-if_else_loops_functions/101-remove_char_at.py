@@ -5,6 +5,5 @@ def remove_char_at(str, n):
         if str.index(i) == n:
             continue
         else:
-            newstr += i  
+            newstr += i
     return newstr
-    
