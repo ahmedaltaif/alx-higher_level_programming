@@ -4,6 +4,6 @@ def safe_print_integer_err(value):
     try:
         print("{:d}".format(value))
         return True
-    except ValueError as erro:
+    except Exception as erro:
         print("Exception:{}".format(erro), file=stderr)
         return False
