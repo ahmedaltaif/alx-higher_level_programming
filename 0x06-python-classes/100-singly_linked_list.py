@@ -31,7 +31,7 @@ class Node:
         """setter"""
         if value is not None and type(value) != None:
             raise TypeError("next_node must be a Node object")
-        self.__nextnode = value
+        self.__next_node = value
 
 class SinglyLinkedList:
     """ SinglyLinkedList class """
