@@ -6,8 +6,8 @@ class Node:
     """ Node class """
     def __init____(self, data, next_node=None):
         """instantiation"""
-        self.__data = data
-        self.__nextnode = next_node
+        self.data = data
+        self.nextnode = next_node
     
     @property
     def data(self):
