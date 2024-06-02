@@ -29,7 +29,7 @@ class Node:
     @next_node.setter
     def next_node(self, value):
         """setter"""
-        if value is not None and type(value) is not None:
+        if value is not None and type(value) != None:
             raise TypeError("next_node must be a Node object")
         self.__nextnode = value
 
