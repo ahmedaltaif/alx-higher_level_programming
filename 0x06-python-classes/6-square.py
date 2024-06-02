@@ -5,6 +5,7 @@
 class Square:
     """with privat size attribute"""
     def __init__(self, size=0, position=(0, 0)):
+        """initialization method"""
         self.size = size
         self.position = position
 
