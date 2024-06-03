@@ -6,11 +6,10 @@ class Rectangle:
     """ Rectangle class """
     def __init__(self, width=0, height=0):
         """instantiation"""
-        self.__check_value(width)
-        self.__check_value(height)
-
-        self.width = width
-        self.height = height
+        if __check_value(width):
+            self.width = width
+        if __check_value(height):
+            self.height = height
 
     @property
     def width(self):
