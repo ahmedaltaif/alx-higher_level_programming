@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-N queens puzzle is the challenge of placing 
+N queens puzzle is the challenge of placing
 N non-attacking queens on an N×N chessboard.
 """
 
@@ -36,7 +36,7 @@ if __name__ == "__main__":
         if (already_exists(y)):
             return False
         i = 0
-        while(i < x):
+        while (i < x):
             if abs(a[i][1] - y) == abs(i - x):
                 return False
             i += 1
