@@ -69,7 +69,7 @@ class Rectangle:
         for row in range(self.__height - 1):
             print("#" * self.__width)
         return ('#' * self.__width)
-    
+
     def __repr__(self):
         """return a string representation for reproduction"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
